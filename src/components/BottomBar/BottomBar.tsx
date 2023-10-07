@@ -1,12 +1,12 @@
 import React from 'react'
+import logo from './logo.jpg'
 
 const BottomBar = () => {
   return (
-    <footer>
-        <a className="navbar-brand" href="/">
-            <h2>Wild Spirits</h2>
-            {/* <img src="../../../public/assest/logo.jpg" alt="Wild Spritis" width="30" height="24"/> */}
-        </a>
+    <footer style={{position:"absolute", bottom:"0"}}>
+      <a href='/'>
+        <img src={logo} alt='logoWS' style={{width:"2.6rem"}} />
+      </a>
     </footer>
  )
 }
