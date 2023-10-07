@@ -1,46 +1,100 @@
-# Getting Started with Create React App
+# Wild Sprits's website
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Welcome to the **website** repository! This README file contains instructions on how to contribute to this project using feature branches for your commits.
 
-## Available Scripts
+## Table of Contents
+- [Getting Started](#getting-started)
+- [Run project locally](#run-project-locally)
+- [Contributing](#contributing)
+  - [Creating a Feature Branch](#creating-a-feature-branch)
+  - [Making Commits](#making-commits)
+  - [Submitting a Pull Request](#submitting-a-pull-request)
+- [Code Review](#code-review)
 
-In the project directory, you can run:
 
-### `npm start`
+## Getting Started
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Before you start contributing, make sure you have the following prerequisites installed:
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+- [Git](https://git-scm.com/)
+- [GitHub Account](https://github.com/)
 
-### `npm test`
+If you don't have these installed, please follow the official installation instructions for your operating system.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Run project locally
 
-### `npm run build`
+1. Clone the repository to your local machine:
+   ```bash
+   git clone https://github.com/Wild-Spirits/WS-Portal-Front
+   ```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+2. Change your working directory to the project folder:
+   ```bash
+   cd WS-Portal-Front
+   ```
+3. Install dependencies
+   ```bash
+   npm i
+   ```
+4. Start project on your machine
+   ```bash
+   npm start
+   ```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Contributing
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+To contribute to this project, follow these steps:
 
-### `npm run eject`
+### Creating a Feature Branch
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+1. Clone the repository to your local machine:
+   ```bash
+   git clone https://github.com/Wild-Spirits/WS-Portal-Front
+   ```
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+2. Change your working directory to the project folder:
+   ```bash
+   cd WS-Portal-Front
+   ```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+3. Create a new branch for your feature. Use a descriptive name for the branch that reflects the feature or issue you're working on. For example:
+   ```bash
+   git checkout -b feature/my-new-feature
+   ```
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+### Making Commits
 
-## Learn More
+4. Make your code changes on the feature branch. Ensure your commits are clear, concise, and address a single issue or feature.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+5. Stage your changes for commit:
+   ```bash
+   git add .
+   ```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+6. Commit your changes with a meaningful message:
+   ```bash
+   git commit -m "Add a concise commit message here"
+   ```
+
+7. Push your feature branch to the remote repository:
+   ```bash
+   git push origin feature/my-new-feature
+   ```
+
+### Submitting a Pull Request
+
+8. Visit the [GitHub repository](https://github.com/Wild-Spirits/WS-Portal-Front).
+
+9. Click on the "Pull Requests" tab.
+
+10. Click the "New Pull Request" button.
+
+11. Select the base branch (in our case it is `main`) and the feature branch you created in step 3.
+
+12. Provide a descriptive title and detailed description of your changes in the pull request.
+
+13. Click the "Create Pull Request" button to submit your changes for review.
+
+## Code Review
+
+Once your pull request is submitted, project maintainers and collaborators will review your changes. They may provide feedback or request modifications. Be prepared to address any comments or suggestions.
