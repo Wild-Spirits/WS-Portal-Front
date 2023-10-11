@@ -6,6 +6,8 @@ import BottomBar from './components/BottomBar/BottomBar';
 import FeaturesPage from './pages/FeaturesPage/FeaturesPage';
 import DocsPage from './pages/DocsPage/DocsPage';
 import DescriptionPage from './pages/DescriptionPage/DescriptionPage';
+import LoginPage from './pages/LoginPage/LoginPage';
+import RegistrationPage from './pages/RegistrationPage/RegistrationPage';
 
 function App() {
   return (
@@ -14,6 +16,8 @@ function App() {
         <NavBar />
         <Routes>
           <Route path="/" element={<MainPage />} />
+          <Route path="/login" element={<LoginPage />} />
+          <Route path="/register" element={<RegistrationPage />} />
           <Route path="/features" element={<FeaturesPage />} />
           <Route path="/docs" element={<DocsPage />} />
           <Route path="/dscr" element={<DescriptionPage />} />
