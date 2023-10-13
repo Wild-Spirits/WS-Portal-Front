@@ -2,6 +2,10 @@ import React from "react"
 import { useNavigate } from "react-router-dom";
 import logo from "../Assets/WS123.png"
 
+/**
+ * Component for representation of a navbar.
+ * @component
+ */
 const NavBar = () => {
   const navigate = useNavigate();
 
